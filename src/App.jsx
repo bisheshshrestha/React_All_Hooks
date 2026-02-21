@@ -4,6 +4,7 @@ import FetchData from "../hooks/useEffect/FetchData";
 import ChangeBackground from "../hooks/useLayoutEffect/ChangeBackground";
 import NepalGov from "../hooks/useContext/props_drilling/NepalGov";
 import Reducer from "../hooks/useReducer/Reducer";
+import Cart from "../hooks/useMemo/Cart";
 
 const App = () => {
   return (
@@ -21,7 +22,10 @@ const App = () => {
       {/* <NepalGov /> */}
 
       {/* useReducer hook */}
-      <Reducer />
+      {/* <Reducer /> */}
+
+      {/* useMemo hook */}
+      <Cart />
     </div>
   );
 };
