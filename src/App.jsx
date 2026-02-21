@@ -5,8 +5,9 @@ import ChangeBackground from "../hooks/useLayoutEffect/ChangeBackground";
 import NepalGov from "../hooks/useContext/props_drilling/NepalGov";
 import Reducer from "../hooks/useReducer/Reducer";
 import Cart from "../hooks/useMemo/Cart";
-import Index from "../hooks/useTransition/Index";
+// import Index from "../hooks/useTransition/Index";
 // import Index from "../hooks/useCallback/Index";
+import Index from "../hooks/useRef/Index";
 
 const App = () => {
   return (
@@ -33,6 +34,9 @@ const App = () => {
       {/* <Index /> */}
 
       {/* useTransition hook */}
+      {/* <Index /> */}
+
+      {/* useRef hook */}
       <Index />
     </div>
   );
