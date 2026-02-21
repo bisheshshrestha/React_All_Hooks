@@ -1,10 +1,15 @@
 import React from "react";
 import Counter from "../hooks/useState/Counter";
+import FetchData from "../hooks/useEffect/FetchData";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      {/* useState hook */}
+      {/* <Counter /> */}
+
+      {/* useEffect hook */}
+      <FetchData />
     </div>
   );
 };
