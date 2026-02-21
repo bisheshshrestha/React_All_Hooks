@@ -3,6 +3,7 @@ import Counter from "../hooks/useState/Counter";
 import FetchData from "../hooks/useEffect/FetchData";
 import ChangeBackground from "../hooks/useLayoutEffect/ChangeBackground";
 import NepalGov from "../hooks/useContext/props_drilling/NepalGov";
+import Reducer from "../hooks/useReducer/Reducer";
 
 const App = () => {
   return (
@@ -17,7 +18,10 @@ const App = () => {
       {/* <ChangeBackground /> */}
 
       {/* useContext hook */}
-      <NepalGov />
+      {/* <NepalGov /> */}
+
+      {/* useReducer hook */}
+      <Reducer />
     </div>
   );
 };
