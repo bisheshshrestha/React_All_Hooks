@@ -1,6 +1,7 @@
 import React from "react";
 import Counter from "../hooks/useState/Counter";
 import FetchData from "../hooks/useEffect/FetchData";
+import ChangeBackground from "../hooks/useLayoutEffect/ChangeBackground";
 
 const App = () => {
   return (
@@ -9,7 +10,10 @@ const App = () => {
       {/* <Counter /> */}
 
       {/* useEffect hook */}
-      <FetchData />
+      {/* <FetchData /> */}
+
+      {/* useLayoutEffect hook */}
+      <ChangeBackground />
     </div>
   );
 };
