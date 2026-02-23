@@ -1,16 +1,111 @@
-# React + Vite
+# ⚛️ React All Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A hands-on reference project covering all major React Hooks with focused, runnable examples. Built with **React 19** and **Vite** for a fast development experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🪝 Hooks Covered
 
-## React Compiler
+Each hook has its own dedicated folder inside `hooks/` with isolated examples:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+| Hook | Category | Purpose |
+|---|---|---|
+| `useState` | State | Manage local component state |
+| `useReducer` | State | Handle complex state with actions |
+| `useEffect` | Side Effects | Run side effects after render |
+| `useLayoutEffect` | Side Effects | Run effects synchronously after DOM updates |
+| `useRef` | Refs | Access DOM nodes or persist values without re-render |
+| `useContext` | Context | Consume context without prop drilling |
+| `useMemo` | Performance | Memoize expensive computed values |
+| `useCallback` | Performance | Memoize callback functions for stable references |
+| `useTransition` | Concurrent | Mark state updates as non-urgent for responsive UI |
+| `useId` | Utility | Generate stable unique IDs for accessibility |
+| `customHook` | Custom | Reusable logic built by composing built-in hooks |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗂️ Project Structure
+
+```
+React_All_Hooks/
+├── hooks/
+│   ├── customHook/
+│   ├── useCallback/
+│   ├── useContext/
+│   ├── useEffect/
+│   ├── useId/
+│   ├── useLayoutEffect/
+│   ├── useMemo/
+│   ├── useReducer/
+│   ├── useRef/
+│   ├── useState/
+│   └── useTransition/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/bisheshshrestha/React_All_Hooks.git
+cd React_All_Hooks
+npm install
+```
+
+### Run the dev server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Other scripts
+
+```bash
+npm run build      # Production build
+npm run preview    # Preview production build locally
+npm run lint       # Run ESLint
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** 19
+- **Vite** 7 with `@vitejs/plugin-react-swc`
+- **ESLint** with `eslint-plugin-react-hooks` and `eslint-plugin-react-refresh`
+- **JavaScript (JSX)**
+
+---
+
+## 📚 References
+
+- [React Official Hooks Reference](https://react.dev/reference/react/hooks)
+- [Vite Documentation](https://vite.dev)
+
+---
+
+## 👤 Author
+
+**Bishesh Lal Shrestha**
+[github.com/bisheshshrestha](https://github.com/bisheshshrestha)
