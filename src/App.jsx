@@ -8,7 +8,8 @@ import Cart from "../hooks/useMemo/Cart";
 // import Index from "../hooks/useTransition/Index";
 // import Index from "../hooks/useCallback/Index";
 // import Index from "../hooks/useRef/Index";
-import Index from "../hooks/useId/Index";
+// import Index from "../hooks/useId/Index";
+import Index from "../hooks/customHook/Index";
 
 const App = () => {
   return (
@@ -41,6 +42,9 @@ const App = () => {
       {/* <Index /> */}
 
       {/* useId hook */}
+      {/* <Index /> */}
+
+      {/* custom hook */}
       <Index />
     </div>
   );
